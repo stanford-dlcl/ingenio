@@ -12,7 +12,7 @@ tags:
 categories:
     - 2022
 image:
-    thumb: '../../copper_hands_thumb.jpg'
+    thumb: '../images/copper_hands_thumb.jpg'
     title: '"<a href="https://www.flickr.com/photos/14529257@N03/4700387614">Egg</a>" by <a href="https://www.flickr.com/photos/14529257@N03">Steve A Johnson</a>, CC-BY 2.0'
     caption_url: http://unsplash.com
 ---
