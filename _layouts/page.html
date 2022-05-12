@@ -16,6 +16,10 @@ format: post
 
 			<div itemprop="articleSection">
 			{{ content }}
+			
+			{% if page.pdf %}
+			<object data="{{ site.url }}/pdf/{{page.pdf}}" width="1000" height="1000" type="application/pdf"></object>
+			{% endif %}
 			</div>
 
 			{% if page.show_meta == true %}

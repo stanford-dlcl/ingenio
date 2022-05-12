@@ -7,12 +7,10 @@ teaser: 'Some memories from well within.'
 show-meta: true
 authorname: Anonymous
 breadcrumb: true
-tags:
-    - post format
 categories:
     - 2022
 image:
-    thumb: '../images/copper_hands_thumb.jpg'
+    thumb: 'copper_hands_thumb.jpg'
     title: '"Egg" by Steve A Johnson, CC-BY 2.0'
     caption_url: https://www.flickr.com/photos/14529257@N03/4700387614
 ---
