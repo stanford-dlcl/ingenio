@@ -1,22 +1,28 @@
 <aside>
 	<div class="panel radius">
-		<h3>Sidebar</h3>
+		<h3>{{page.title}}</h3>
 		
 		{% if page.authorname %}
 		
-		<p>{{ page.authorname }}</p>
+		<p><strong>Author:</strong> {{ page.authorname }}</p>
 	
 		{% endif %}
 		
 		{% if page.class %}
 		
-		<p>{{ page.class }}</p>
+		<p><strong>Made for:</strong> {{ page.class }}</p>
+	
+		{% endif %}
+		
+		{% if page.nominated-by %}
+		
+		<p><strong>Nominated by:</strong> {{ page.nominated-by }}</p>
 	
 		{% endif %}
 		
 		{% if page.teaser %}
 		
-		<p>{{ page.teaser }}</p>
+		<p><em>{{ page.teaser }}</em></p>
 	
 		{% endif %}
 		
