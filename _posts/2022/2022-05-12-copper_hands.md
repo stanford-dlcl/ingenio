@@ -13,8 +13,8 @@ categories:
     - 2022
 image:
     thumb: '../images/copper_hands_thumb.jpg'
-    title: '"<a href="https://www.flickr.com/photos/14529257@N03/4700387614">Egg</a>" by <a href="https://www.flickr.com/photos/14529257@N03">Steve A Johnson</a>, CC-BY 2.0'
-    caption_url: http://unsplash.com
+    title: '"Egg" by Steve A Johnson, CC-BY 2.0'
+    caption_url: https://www.flickr.com/photos/14529257@N03/4700387614
 ---
 Your copper hands dozing off on the sheets.<br />
 I saw them then. I see them now. <br />
