@@ -39,6 +39,7 @@ improve_content: https://github.com/stanford-dlcl/ingenio/edit/gh-pages
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
 urlimg: 'https://stanford-dlcl.github.io/ingenio/images/'
+urlpdf: 'https://stanford-dlcl.github.io/ingenio/pdf/'
 
 
 # Logo size is 600x80 pixels
