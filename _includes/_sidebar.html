@@ -1,5 +1,10 @@
 <aside>
 	<div class="panel radius">
+		{% if page.image.thumb %}
+		
+	    <img class="b30" src="{{ page.image.thumb }}" alt="{{page.image.title}}">
+		{% endif %}
+		
 		<h3>{{page.title}}</h3>
 		
 		{% if page.authorname %}
