@@ -20,7 +20,21 @@ format: post
 			{% if page.pdf %}
 			<object data="{{ site.urlpdf }}/{{page.pdf}}" width="800" height="1100" type="application/pdf"></object>
 			{% endif %}
+			
+			
+			
+			{% if page.image.full %}
+			<img src="{{ site.urlimg }}{{ page.image.full }}" alt="{{page.image.title}}" />
+			
+			{% endif %}
+			
+			
+			
 			</div>
+			
+			
+			
+			
 
 			{% if page.show_meta == true %}
 			{% include _meta_information.html %}
@@ -29,6 +43,10 @@ format: post
 			{% if page.comments == true %}
 			{% include _comments.html %}
 			{% endif %}
+			
+			
+		
+			
 		</article>
 	</div><!-- /.medium-8.columns -->
 

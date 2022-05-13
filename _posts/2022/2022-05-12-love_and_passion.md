@@ -11,6 +11,7 @@ class: 'DLCL 50B: The Global Creativity Lab'
 breadcrumb: true
 categories:
     - 2022
+	- Reflecting
 pdf: love-and-passion.pdf
 image:
     thumb: 'love-and-passion-thumb.jpg'
