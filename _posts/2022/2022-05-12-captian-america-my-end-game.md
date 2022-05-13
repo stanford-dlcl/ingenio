@@ -14,7 +14,6 @@ categories:
 	- Longing
 image:
     thumb: 'longing_thumb.jpg'
-	full: 'longing.jpg'
     title: longing_thumb.jpg
     caption_url: http://unsplash.com
 ---
