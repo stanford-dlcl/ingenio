@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: 2022/autoretrato-en-flujo
+permalink: /2022/autoretrato-en-flujo
 sidebar: left
 title:  "Autoretrato en flujo"
 teaser: 'This illustration describes the internal conflict of my Argentine roots while residing in the US, feeling connected to both places but never enough for either.'

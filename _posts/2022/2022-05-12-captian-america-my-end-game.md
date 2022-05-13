@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: 2022/captain-america-my-end-game
+permalink: /2022/captain-america-my-end-game
 sidebar: left
 title:  "Captain America: My End Game"
 teaser: 'In this self portrait of Captain America, I wanted to portray his stoic nature while

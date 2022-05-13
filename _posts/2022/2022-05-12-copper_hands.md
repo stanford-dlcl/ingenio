@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: 2022/copper-hands
+permalink: /2022/copper-hands
 sidebar: left
 title:  "Copper Hands"
 teaser: 'Some memories from well within.'
