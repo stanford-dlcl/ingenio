@@ -53,5 +53,5 @@
     url: "/2022/psalm"
 - title: About
   url: "/about"
-  - title: "Search"
+- title: "Search"
   url: "/search/"
