@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /2022/love-and-passion
+permalink: 2022/love-and-passion
 sidebar: left
 title:  "萬水千山總是情"
 teaser: | 
