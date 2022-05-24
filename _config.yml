@@ -43,7 +43,7 @@ urlpdf: 'https://stanford-dlcl.github.io/ingenio/pdf/'
 
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+logo: "ingenio_logo.png"
 
 # Plugins
 plugins:
