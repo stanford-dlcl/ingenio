@@ -1,7 +1,6 @@
 - title: Home
   url: "/"
   side: left
-
 - title: Reflecting
   url: "/reflecting"
   side: left
@@ -56,4 +55,3 @@
   url: "/about"
   - title: "Search"
   url: "/search/"
-  side: right
