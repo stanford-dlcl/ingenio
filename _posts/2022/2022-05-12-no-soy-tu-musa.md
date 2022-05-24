@@ -11,7 +11,7 @@ nominated-by: 'Cintia Santana'
 breadcrumb: true
 categories:
     - 2022
-	- Loving
+    - Loving
 image:
     thumb: 'musa_thumb.jpg'
 ---

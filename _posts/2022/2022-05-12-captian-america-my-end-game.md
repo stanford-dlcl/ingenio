@@ -11,7 +11,7 @@ class: 'COMPLIT 186A: The Art of Self Portraits'
 breadcrumb: true
 categories:
     - 2022
-	- Longing
+    - Longing
 image:
     thumb: 'longing_thumb.jpg'
     title: longing_thumb.jpg

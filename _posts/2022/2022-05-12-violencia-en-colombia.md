@@ -11,10 +11,10 @@ nominated-by: 'Héctor Hoyos'
 breadcrumb: true
 categories:
     - 2022
-	- Mourning
+    - Mourning
 pdf: love-and-passion.pdf
 image:
     thumb: 'violenciacolombia_thumb.jpg'
-	full: 'violenciacolombia.jpg'
+    full: 'violenciacolombia.jpg'
     title: Violencia in Colombia
 ---

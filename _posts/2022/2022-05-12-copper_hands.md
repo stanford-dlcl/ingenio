@@ -9,7 +9,7 @@ authorname: Anonymous
 breadcrumb: true
 categories:
     - 2022
-	- Reflecting
+    - Reflecting
 image:
     thumb: 'copper_hands_thumb.jpg'
     title: '"Egg" by Steve A Johnson, CC-BY 2.0'

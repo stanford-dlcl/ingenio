@@ -11,9 +11,9 @@ nominated-by: 'Héctor Hoyos and Cristian Felipe Soler'
 breadcrumb: true
 categories:
     - 2022
-	- Mourning
+    - Mourning
 image:
     thumb: 'unacarta_thumb.jpg'
-	full: 'unacarta.jpg'
+    full: 'unacarta.jpg'
     title: Una carta a mi perro
 ---

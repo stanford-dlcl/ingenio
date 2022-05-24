@@ -11,7 +11,7 @@ nominated-by: 'Cristian Soler'
 breadcrumb: true
 categories:
     - 2022
-	- Reimagining
+    - Reimagining
 image:
     thumb: 'conversation_insomniacs_thumb.png'
 pdf: conversation-insomniacs.pdf

@@ -11,10 +11,10 @@ class: 'ILAC 126: Latin American Art and Literature: 100 Years of Modernisms'
 breadcrumb: true
 categories:
     - 2022
-	- Longing
+    - Longing
 image:
     thumb: 'autoretrato_thumb.jpg'
-	full: 'autoretrato.jpg'
+    full: 'autoretrato.jpg'
     title: autoretrato_thumb.jpg
     caption_url: http://unsplash.com
 ---
