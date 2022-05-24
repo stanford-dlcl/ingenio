@@ -21,16 +21,16 @@ homepage: true
 <div class="row t30">
     <div class="medium-4 columns">
         <img src="{{ site.urlimg }}autoretrato_thumb.jpg" alt="">
-        <p>Autoretrato <a href="https://andersneu.de/">andersneu.de</a></p>
+        <p>Autoretrato</p>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns">
         <img src="{{ site.urlimg }}longing_thumb.jpg" alt="">
-        <p>Longing <a href="https://mosonic.net/">mosonic.net</a></p>
+        <p>Longing</p>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns">
         <img src="{{ site.urlimg }}copper_hands_thumb.jpg" alt="">
-        <p>Copper Hands <a href="https://moritz.sauer.io/">Webdesign, SEO, Music</a></p>
+        <p>Copper Hands</p>
     </div><!-- /.medium-4.columns -->
 </div><!-- /.row -->
