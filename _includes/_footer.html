@@ -1,24 +1,27 @@
     <div id="up-to-top" class="row">
       <div class="small-12 columns" style="text-align: right;">
-        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+        <a class="iconfont" href="#top-of-page" aria-label="Back to top"><span aria-hidden="true">&#xf108;</span><span class="show-for-sr">Back to top</span></a>
       </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 
 
-    <footer id="footer-content" class="bg-grau">
+    <footer id="footer-content" class="bg-grau" role="contentinfo">
       <div id="footer">
         <div class="row">
           <div class="medium-6 large-5 columns">
+            <section aria-label="About this website">
             <h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
 
             <p class="shadow-black">
               {{ site.description }}
               <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>
             </p>
+            </section>
           </div><!-- /.large-6.columns -->
 
 
           <div class="small-6 medium-3 large-3 large-offset-1 columns">
+            <section aria-label="Services">
             {% for service_item in site.data.services %}
               {% if forloop.first == true %}
                 <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
@@ -29,14 +32,16 @@
               {% for service_item in site.data.services %}
                 {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
                   <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
-                    <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
+                    <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" rel="noopener noreferrer" aria-label="{{ service_item.name }} (opens in new window)" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
                   </li>
               {% endfor %}
               </ul>
+            </section>
           </div><!-- /.large-4.columns -->
 
 
           <div class="small-6 medium-3 large-3 columns">
+            <section aria-label="Network">
             {% for network_item in site.data.network %}
               {% if forloop.first == true %}
                 <h5 class="shadow-black">{{ network_item.menu_name }}</h5>
@@ -47,10 +52,11 @@
             {% for network_item in site.data.network %}
               {% if network_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
                 <li {% if network_item.class %}class="{{ network_item.class }}" {% endif %}>
-                  <a href="{{ domain }}{{ network_item.url }}" {% if network_item.url contains 'http' %}target="_blank" {% endif %} title="{{ network_item.title }}">{{ network_item.name }}</a>
+                  <a href="{{ domain }}{{ network_item.url }}" {% if network_item.url contains 'http' %}target="_blank" rel="noopener noreferrer" aria-label="{{ network_item.name }} (opens in new window)" {% endif %} title="{{ network_item.title }}">{{ network_item.name }}</a>
                 </li>
             {% endfor %}
             </ul>
+            </section>
           </div><!-- /.large-3.columns -->
         </div><!-- /.row -->
 
@@ -58,15 +64,15 @@
 
 
       <div id="subfooter">
-        <nav class="row">
+        <nav class="row" aria-label="Footer navigation">
           <section id="subfooter-left" class="small-12 medium-6 columns credits">
             {{ site.credits }}
           </section>
 
-          <section id="subfooter-right" class="small-12 medium-6 columns">
+          <section id="subfooter-right" class="small-12 medium-6 columns" aria-label="Social media links">
             <ul class="inline-list social-icons">
             {% for social_item in site.data.socialmedia %}
-              <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+              <li><a href="{{ social_item.url }}" target="_blank" rel="noopener noreferrer" class="{{ social_item.class }}" title="{{ social_item.title }}" aria-label="{{ social_item.title }} (opens in new window)"><span class="show-for-sr">{{ social_item.title }}</span></a></li>
             {% endfor %}
             </ul>
           </section>

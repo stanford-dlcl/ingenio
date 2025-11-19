@@ -95,11 +95,13 @@
 ------------------------------------------------------------------- */
 
 button, .button         { letter-spacing: 1px; }
-  button.grey, .button.grey { background: $grey-10; }
-  button.grey:hover,
-  button.grey:focus,
-  .button.grey:hover,
-  .button.grey:focus      { background-color: $grey-16; }
+button, .button { position: relative; }
+button:focus, .button:focus { outline: 2px solid $ci-3; outline-offset: 2px; }
+button.grey, .button.grey { background: $grey-10; }
+button.grey:hover,
+button.grey:focus,
+.button.grey:hover,
+.button.grey:focus      { background-color: $grey-16; }
 
 
 

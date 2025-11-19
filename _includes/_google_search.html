@@ -7,10 +7,11 @@
 	}
 </script>
 
-<form id="search" onsubmit="google_search(); return false;">
-	<input type="text" id="google-search" placeholder="{{ site.data.language.enter_search_term }}">
+<form id="search" onsubmit="google_search(); return false;" role="search" aria-label="Site search">
+	<label for="google-search" class="show-for-sr">{{ site.data.language.enter_search_term }}</label>
+	<input type="text" id="google-search" placeholder="{{ site.data.language.enter_search_term }}" aria-label="{{ site.data.language.enter_search_term }}">
 </form>
 <noscript>
-	Search <a href="https://www.google.com/search?q=site:{{ google_search_site | cgi_escape }}" target="_blank">Google</a> for:
+	Search <a href="https://www.google.com/search?q=site:{{ google_search_site | cgi_escape }}" target="_blank" rel="noopener noreferrer">Google</a> for:
 	<pre><code>search-term site:{{ google_search_site }}</code></pre>
 </noscript>
